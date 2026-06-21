@@ -168,6 +168,7 @@
     transition: all 0.2s; font-weight: 500;
   }
   .proj-link:hover { color: var(--accent); border-color: var(--accent); }
+  .proj-links { display: flex; gap: 8px; }
   .proj-card h4 { font-family: 'Space Grotesk', sans-serif; font-size: 17px; font-weight: 700; color: var(--white); margin-bottom: 10px; }
   .proj-card p { color: var(--muted); font-size: 13px; line-height: 1.65; margin-bottom: 18px; flex: 1; }
   .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -324,6 +325,22 @@
     <div class="sec-label">What I've built</div>
     <div class="sec-title">Projects</div>
     <div class="projects-grid">
+      <div class="proj-card">
+        <div class="proj-top">
+          <div class="proj-emoji">🧭</div>
+          <div class="proj-links">
+            <a href="https://trailblazer-xo24.onrender.com/" target="_blank" class="proj-link">Live ↗</a>
+            <a href="https://github.com/GeethaBurigalla/TrailBlazer" target="_blank" class="proj-link">GitHub ↗</a>
+          </div>
+        </div>
+        <h4>TrailBlazer — AI Career Roadmap Generator</h4>
+        <p>AI-powered career roadmap generator for engineering students. Generates personalized roadmaps, named skill-gap analysis, and project suggestions using the Groq LLM API with a rule-based fallback for 100% uptime. Built solo and deployed live for a hackathon.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Node.js</span><span class="proj-tag">Express</span>
+          <span class="proj-tag">Groq LLM</span><span class="proj-tag">JavaScript</span>
+          <span class="proj-tag">Live Demo</span>
+        </div>
+      </div>
       <div class="proj-card">
         <div class="proj-top">
           <div class="proj-emoji">🌾</div>
